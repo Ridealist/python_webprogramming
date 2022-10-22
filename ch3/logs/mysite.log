@@ -1,0 +1,12 @@
+[11/Sep/2021 14:39:54] DEBUG [polls.views:29] vote().question_id: 3
+[11/Sep/2021 14:39:59] DEBUG [polls.views:29] vote().question_id: 3
+[11/Sep/2021 14:40:04] DEBUG [polls.views:29] vote().question_id: 3
+[11/Sep/2021 14:40:09] DEBUG [polls.views:29] vote().question_id: 2
+[11/Sep/2021 14:40:19] DEBUG [polls.views:29] vote().question_id: 2
+[14/Sep/2021 00:51:16] DEBUG [polls.views:29] vote().question_id: 1
+[14/Sep/2021 00:51:18] DEBUG [polls.views:29] vote().question_id: 1
+[14/Sep/2021 00:51:18] DEBUG [polls.views:29] vote().question_id: 1
+[14/Sep/2021 00:51:19] DEBUG [polls.views:29] vote().question_id: 1
+[14/Sep/2021 00:51:26] DEBUG [polls.views:29] vote().question_id: 3
+[14/Sep/2021 00:51:31] DEBUG [polls.views:29] vote().question_id: 2
+[14/Sep/2021 00:51:32] DEBUG [polls.views:29] vote().question_id: 2

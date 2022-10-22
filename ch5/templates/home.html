@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+
+{% extends "base.html" %}
+
+{% block content %}
+<h1>JunboKoh Django Apps</h1>
+<ul>
+    {% for key, value in verbose_dict.items %}
+    <li><a href="{% url key|add:':index' %}">{{ value }}</a></li>
+    {% endfor %}
+</ul>
+{% endblock %}
+
+</body>
+</html>

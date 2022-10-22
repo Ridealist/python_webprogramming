@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+
+{% extends 'base_books.html' %}
+
+{% block content %}
+    <h2>Book Management System</h2>
+<ul>
+    {% for model in dbtable_list %}
+{% with "books:"|add:model|lower|add:"_list" as urlvar %}
+        <li><a href="{% url urlvar %}">{{ model }}</a></li>
+{% endwith %}
+    {% endfor %}
+</ul>
+{% endblock content %}
+
+</body>
+</html>

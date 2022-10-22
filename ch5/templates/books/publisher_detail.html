@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Publisher_Detail</title>
+</head>
+<body>
+
+{% extends "base_books.html" %}
+
+{% block content %}
+    <h1>{{ object.name }}</h1>
+    <p><a href="{{ object.website }}">{{ object.website }}</a></p>
+    <li>Address: {{ object.address }}</li>
+</ul>
+{% endblock %}
+
+</body>
+</html>
